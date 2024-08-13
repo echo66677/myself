@@ -2,7 +2,7 @@
 主题 壁纸大全 4.1.7
 
 [rewrite_local]
-http://wallpaper-zz.laoyinnianhua.com/api/visitors url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/bzdq.js
+http://wallpaper-zz.laoyinnianhua.com/api/visitors url script-response-body https://raw.githubusercontent.com/echo66677/myself/master/bzdq.js
 
 [mitm]
 hostname = wallpaper-zz.laoyinnianhua.com

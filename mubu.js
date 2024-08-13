@@ -3,9 +3,9 @@
 终身会员
 
 [rewrite_local]
-https://api2.mubu.com/v3/api/user/current_user url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/mubu.js
+https://api2.mubu.com/v3/api/user/current_user url script-response-body https://raw.githubusercontent.com/echo66677/myself/master/mubu.js
 
-[mitm] 
+[mitm]
 hostname = api2.mubu.com
 */
 

@@ -1,8 +1,8 @@
 /*
-编程狮 
+编程狮
 3.14.1
 [rewrite_local]
-^https:\/\/appapi\.w3cschool\.cn\/api\/myapp\/(isLogin|getLevel|getMyMedal|getMyCertificate) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/Bcs.js
+^https:\/\/appapi\.w3cschool\.cn\/api\/myapp\/(isLogin|getLevel|getMyMedal|getMyCertificate) url script-response-body https://raw.githubusercontent.com/echo66677/myself/master/Bcs.js
 [mitm]
 hostname = appapi.w3cschool.cn
 */
@@ -37,7 +37,7 @@ if (url.indexOf('getMyMedal') != -1) {
 //证书
 } else if (url.indexOf('getMyCertificate') != -1) {
     body = body.replace(/"ismember":0/g, '"ismember":1');
-    
+
 }
 
 $done({ body });

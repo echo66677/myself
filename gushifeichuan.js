@@ -5,11 +5,11 @@
 
 [rewrite_local]
 
-https://storybook.ifenghui.com/api url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/gushifeichuan.js
+https://storybook.ifenghui.com/api url script-response-body https://raw.githubusercontent.com/echo66677/myself/master/gushifeichuan.js
 
 #开屏广告需清理缓存
 https://storybook.ifenghui.com/api/ads/getIndexAds url reject
-[mitm] 
+[mitm]
 
 hostname = storybook.ifenghui.com
 

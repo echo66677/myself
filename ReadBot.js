@@ -1,11 +1,11 @@
 /**
-ReadBot 
-2024.01.06 
+ReadBot
+2024.01.06
 [rewrite_local]
 
-https://api.readbot.tech/v1/vip/status url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/ReadBot.js
+https://api.readbot.tech/v1/vip/status url script-response-body https://raw.githubusercontent.com/echo66677/myself/master/ReadBot.js
 
-[mitm] 
+[mitm]
 hostname = api.readbot.tech
 
 */

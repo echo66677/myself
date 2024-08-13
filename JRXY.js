@@ -5,7 +5,7 @@
 
 [rewrite_local]
 
-https://smk.xiao51.com/index.php url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/JRXY.js
+https://smk.xiao51.com/index.php url script-response-body https://raw.githubusercontent.com/echo66677/myself/master/JRXY.js
 [mitm]
 hostname = smk.xiao51.com
 */
@@ -21,7 +21,7 @@ if (url.includes("a=vip_status_1")) {
         objc.data.notice_buyout = "lovebabyforever";
         objc.data.expired = 0;
         objc.data.vipType = "4";
-        
+
         objc.data.currentPayIndex = 4;
         objc.data.coinVipPermanent = 45;
         objc.code = "0";

@@ -1,4 +1,4 @@
-/* 
+/*
 1软件：‎xTerminal
 2软件：色采
 1下载：https://apps.apple.com/cn/app/xterminal-ssh-terminal-shell/id1544728400
@@ -7,7 +7,7 @@
 
 
 [rewrite_local]
-^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/‎xTerminal.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/echo66677/myself/master/‎xTerminal.js
 
 
 [mitm]

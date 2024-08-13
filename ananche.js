@@ -5,9 +5,9 @@
 [rewrite_local]
 
 
-https://lifeserver.clifes.cn/exam/vip/info url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/ananche.js
+https://lifeserver.clifes.cn/exam/vip/info url script-response-body https://raw.githubusercontent.com/echo66677/myself/master/ananche.js
 
-[mitm] 
+[mitm]
 
 hostname = lifeserver.clifes.cn
 */

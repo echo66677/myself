@@ -4,9 +4,9 @@
 [rewrite_local]
 
 
-https://uapi.woobx.cn/user/profile url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/yigemuhan.js
+https://uapi.woobx.cn/user/profile url script-response-body https://raw.githubusercontent.com/echo66677/myself/master/yigemuhan.js
 
-[mitm] 
+[mitm]
 
 hostname = uapi.woobx.cn
 

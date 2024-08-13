@@ -1,14 +1,14 @@
 /*
 
-人生笔记 
+人生笔记
 2023.12.26
 
 
 [rewrite_local]
 
-^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/itunes/RSBJ.js
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/echo66677/myself/master/itunes/RSBJ.js
 
-[mitm] 
+[mitm]
 
 hostname = buy.itunes.apple.com
 

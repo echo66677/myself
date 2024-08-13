@@ -3,7 +3,7 @@
 77时钟：https://apps.apple.com/app/id1627747584
 77电脑助手：https://apps.apple.com/app/id1620485227
 [rewrite_local]
-^https?:\/\/19700\.com\/(todo|computer|clock)\/api\/v1\/o\/member\/getProfile url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/V7.js
+^https?:\/\/19700\.com\/(todo|computer|clock)\/api\/v1\/o\/member\/getProfile url script-response-body https://raw.githubusercontent.com/echo66677/myself/master/V7.js
 
 [MITM]
 hostname = 19700.com
@@ -45,9 +45,9 @@ function b(c, d) {
   // ...
 }
 
-typeof $httpClient !== z(0x161, 'yW0L') ? 
-  (z(0x166, 'Ut))') !== typeof $response[z(0x169, 'wTvV')] ? 
-    body = $response[z(0x160, 'QKb^')][z(0x171, '^O@(')].replace(/(v.*?i.*?p.*?[^1]+)1([^,]+),/g, z(0x175, 'yN!m')) : 
+typeof $httpClient !== z(0x161, 'yW0L') ?
+  (z(0x166, 'Ut))') !== typeof $response[z(0x169, 'wTvV')] ?
+    body = $response[z(0x160, 'QKb^')][z(0x171, '^O@(')].replace(/(v.*?i.*?p.*?[^1]+)1([^,]+),/g, z(0x175, 'yN!m')) :
     body = $response['body'],
     console.log(body),
     $done({ body: body }) :
@@ -280,7 +280,7 @@ $done({ body: JSON.stringify(guding) });
 
 以上就是Chat GPT4.0 解密加密v7 （https://www.jsjiami.com/）加密全过程
 
-如继续测试请给我相关的js代码 内容过多的话 我觉得还是比较麻烦 
+如继续测试请给我相关的js代码 内容过多的话 我觉得还是比较麻烦
 如果有大佬很懂 很了解这个代码格式 可以尝试手搓一下！
 期待大佬的更新 下面这是代码
 ****************************************************************************/

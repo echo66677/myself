@@ -5,9 +5,9 @@ pixiv 7.9.13
 
 [rewrite_local]
 
-https:\/\/(?:app-api\.pixiv\.net\/v2\/user\/detail|oauth\.secure\.pixiv\.net\/auth\/token) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/pixiv.js
+https:\/\/(?:app-api\.pixiv\.net\/v2\/user\/detail|oauth\.secure\.pixiv\.net\/auth\/token) url script-response-body https://raw.githubusercontent.com/echo66677/myself/master/pixiv.js
 
-[mitm] 
+[mitm]
 
 hostname = oauth.secure.pixiv.net, app-api.pixiv.net
 */

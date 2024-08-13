@@ -1,8 +1,8 @@
-/* 
+/*
 
 
 
-Name：StressWatch 
+Name：StressWatch
 
 download：https://t.cn/A60aLBxu
 
@@ -12,7 +12,7 @@ Disclaimers：Study, not spread
 
 
 [rewrite_local]
-^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/Stresswatch.js
+^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-response-body https://raw.githubusercontent.com/echo66677/myself/master/Stresswatch.js
 
 
 [MITM]

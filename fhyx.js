@@ -3,9 +3,9 @@
 解锁会员 及全课程 资源
 [rewrite_local]
 
-https:\/\/app\.fhestudy\.com\/(collection\/getCatalogAndResource\.do|collection\/getVideoResource\.do|collection\/getTeachingOrCourseDetail\.do|system\/getCheckOutInfo\.do|textbooks\/getTextBookInCourse\.do|user\/getUserInfo\.do|home\/getHomeData\.do) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/fhyx.js
+https:\/\/app\.fhestudy\.com\/(collection\/getCatalogAndResource\.do|collection\/getVideoResource\.do|collection\/getTeachingOrCourseDetail\.do|system\/getCheckOutInfo\.do|textbooks\/getTextBookInCourse\.do|user\/getUserInfo\.do|home\/getHomeData\.do) url script-response-body https://raw.githubusercontent.com/echo66677/myself/master/fhyx.js
 
-[mitm] 
+[mitm]
 
 hostname = app.fhestudy.com
 */
@@ -28,7 +28,7 @@ if (/https:\/\/app\.fhestudy\.com\/home\/getHomeData\.do/.test(url)) {
     obj.data.rightsStartTime = "2024-09-29";
     obj.data.schoolName = "叮当猫大学";
     obj.data.rightsEndTime = "2099-09-09";
-    body = JSON.stringify(obj); 
+    body = JSON.stringify(obj);
 } else if (/https:\/\/app\.fhestudy\.com\/(collection\/getCatalogAndResource\.do|collection\/getVideoResource\.do|collection\/getTeachingOrCourseDetail\.do|system\/getCheckOutInfo\.do|textbooks\/getTextBookInCourse\.do)/.test(url)) {
     // 课程及资源
     body = body.replace(/"lastStudyFlag":\s*false/g, '"lastStudyFlag": true')

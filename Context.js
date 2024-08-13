@@ -6,16 +6,16 @@
 使用声明：⚠️仅供参考，🈲️转载与售卖！
 零元解锁：直接0元购买 解锁到自己账户 同步iCloud
 1.首先添加js到qx并开启规则进入软件 解锁会员
-2.点进去立即购买（显示0元就代表成功）可以同步到苹果服务器 
-3.然后关闭脚本 就可以奔放了 
+2.点进去立即购买（显示0元就代表成功）可以同步到苹果服务器
+3.然后关闭脚本 就可以奔放了
 4.换设备也一样可以 就是同步iCloud 愉快的玩耍了
 
 **************************************
 
 [rewrite_local]
-^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/Context.js
+^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-response-body https://raw.githubusercontent.com/echo66677/myself/master/Context.js
 
-[mitm] 
+[mitm]
 hostname = api.revenuecat.com
 
 ************************************/

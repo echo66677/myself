@@ -5,7 +5,7 @@
 
 [rewrite_local]
 
-^http:\/\/152\.136\.134\.81:8090\/wechat\/(weiXin\/queryUserById|classify\/(getClassifyInfoByIdList2|getIndexPlay2)|audio\/getList2) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/shizilaobajgs.js
+^http:\/\/152\.136\.134\.81:8090\/wechat\/(weiXin\/queryUserById|classify\/(getClassifyInfoByIdList2|getIndexPlay2)|audio\/getList2) url script-response-body https://raw.githubusercontent.com/echo66677/myself/master/shizilaobajgs.js
 
 [mitm]
 hostname = 152.136.134.81:8090

@@ -5,9 +5,9 @@ Motivation-励志语录正能量
 [rewrite_local]
 
 
-^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/itunes/Motivation.js
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/echo66677/myself/master/itunes/Motivation.js
 
-[mitm] 
+[mitm]
 
 hostname = buy.itunes.apple.com
 

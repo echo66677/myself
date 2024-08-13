@@ -1,6 +1,6 @@
 /******************************
 
-狸清照 6.9.3 
+狸清照 6.9.3
 软件功能：Ai老照片修复 照片高清翻新等
 @ios151 仅测试QuanX
 
@@ -9,9 +9,9 @@
 [rewrite_local]
 
 
-^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/Liqingzhao.js
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/echo66677/myself/master/Liqingzhao.js
 
-[mitm] 
+[mitm]
 
 hostname = buy.itunes.apple.com
 

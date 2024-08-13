@@ -6,9 +6,9 @@ CEO周课
 
 [rewrite_local]
 
-https://user.xiaozaoapp.com/app/ceouser/loginAuto url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/CEOzk.js
+https://user.xiaozaoapp.com/app/ceouser/loginAuto url script-response-body https://raw.githubusercontent.com/echo66677/myself/master/CEOzk.js
 
-[mitm] 
+[mitm]
 
 hostname = user.xiaozaoapp.com
 

@@ -5,11 +5,11 @@
 
 [rewrite_local]
 #课程题库
-https:\/\/api\.xinxuejy\.com\/api\/(course\/detail|package\/liveDetail|know\/index|paper\/index|search\/getList|search\/getLibraryById|index\/banner\/type\/app_mall|user\/myInfo) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/xswx.js
+https:\/\/api\.xinxuejy\.com\/api\/(course\/detail|package\/liveDetail|know\/index|paper\/index|search\/getList|search\/getLibraryById|index\/banner\/type\/app_mall|user\/myInfo) url script-response-body https://raw.githubusercontent.com/echo66677/myself/master/xswx.js
 #欢迎加入叮当猫频道
 https://www31c1.53kf.com/m.php url 302 https://t.me/chxm1023
 
-[mitm] 
+[mitm]
 
 hostname = app.xinxuejy.com
 */

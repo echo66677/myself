@@ -1,13 +1,13 @@
 /*
 
-书旗小说 
+书旗小说
 超级会员特权 解锁任意付费及会员章节
 更新2024.01.16
 [rewrite_local]
 #会员中心
-^https:\/\/ocean\.shuqireader\.com\/sqios\/render\/render\/page\/bookstore url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/sqxs.js
+^https:\/\/ocean\.shuqireader\.com\/sqios\/render\/render\/page\/bookstore url script-response-body https://raw.githubusercontent.com/echo66677/myself/master/sqxs.js
 #用户中心
-^https:\/\/ocean\.shuqireader\.com\/api\/jspend\/iosapi\/userinfo\/info url script-request-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/sqxs.js
+^https:\/\/ocean\.shuqireader\.com\/api\/jspend\/iosapi\/userinfo\/info url script-request-body https://raw.githubusercontent.com/echo66677/myself/master/sqxs.js
 
 [mitm]
 

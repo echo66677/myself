@@ -2,12 +2,12 @@
 /*
 
 氢课
-部分付费课程解锁 够用 
-如果卡顿 可以自己抓课程完整播放地址 
+部分付费课程解锁 够用
+如果卡顿 可以自己抓课程完整播放地址
 
 [rewrite_local]
 
-^https:\/\/(www\.qker\.com\/qker2c\/v2\/course\/serial\/\d+\/children|console\.qker\.com\/linga\/api\/v1\/course\/serial\/\d+\/children|console\.qker\.com\/linga\/api\/v1\/user\/details) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/qk.js
+^https:\/\/(www\.qker\.com\/qker2c\/v2\/course\/serial\/\d+\/children|console\.qker\.com\/linga\/api\/v1\/course\/serial\/\d+\/children|console\.qker\.com\/linga\/api\/v1\/user\/details) url script-response-body https://raw.githubusercontent.com/echo66677/myself/master/qk.js
 
 
 [mitm]
@@ -20,7 +20,7 @@ if (url === "https://console.qker.com/linga/api/v1/user/details") {
     body.data.nickname = "baby";
     body.data.expireTime = 4704173101000;
     body.data.vipTips = "超级会员";
-    body.data.vip = true; 
+    body.data.vip = true;
     $done({ body: JSON.stringify(body) });
 } else if (url.match(/^https:\/\/(www\.qker\.com\/qker2c\/v2\/course\/serial\/\d+\/children|console\.qker\.com\/linga\/api\/v1\/course\/serial\/\d+\/children)/)) {
     var modifiedBody = $response.body

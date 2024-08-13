@@ -10,16 +10,16 @@
 
 [rewrite_local]
 
-https://api.revenuecat.com/v1/(receipts|subscribers)/* url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/PureLibro.js
+https://api.revenuecat.com/v1/(receipts|subscribers)/* url script-response-body https://raw.githubusercontent.com/echo66677/myself/master/PureLibro.js
 
-[mitm] 
+[mitm]
 
 hostname = api.revenuecat.com
 
 *******************************/
 var objc = JSON.parse($response.body);
 
-    objc = 
+    objc =
 
 {
   "request_date_ms" : 1695823444784,

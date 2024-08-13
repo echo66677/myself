@@ -3,8 +3,8 @@
 [rewrite_local]
 
 #完整视频
-https://(?:\w+\.)?xlzhao\.com/.*\.(?:m3u8|mp3) url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/m3u8/xiongmaoboshibaike.js
+https://(?:\w+\.)?xlzhao\.com/.*\.(?:m3u8|mp3) url script-request-header https://raw.githubusercontent.com/echo66677/myself/master/m3u8/xiongmaoboshibaike.js
 
-[mitm] 
+[mitm]
 
 hostname = *.xlzhao.com

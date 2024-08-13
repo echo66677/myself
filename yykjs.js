@@ -5,7 +5,7 @@
 
 [rewrite_local]
 
-https://api.agency.immusician.com/v9/(new_question/list|home|courses|new_question/mockexam_list_user/|master/courses|student/mine|users) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/yykjs.js
+https://api.agency.immusician.com/v9/(new_question/list|home|courses|new_question/mockexam_list_user/|master/courses|student/mine|users) url script-response-body https://raw.githubusercontent.com/echo66677/myself/master/yykjs.js
 
 [mitm]
 hostname = api.agency.immusician.com

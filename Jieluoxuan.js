@@ -4,8 +4,8 @@
 
 [rewrite_local]
 
-^https:\/\/app\.helixlife\.cn\/api\/v1\/(user\/overviews|edu\/(trainings|courses)) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/Jieluoxuan.js
-https://app.helixlife.cn/api/v1/user/users/profile url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/Jieluoxianmy.js
+^https:\/\/app\.helixlife\.cn\/api\/v1\/(user\/overviews|edu\/(trainings|courses)) url script-response-body https://raw.githubusercontent.com/echo66677/myself/master/Jieluoxuan.js
+https://app.helixlife.cn/api/v1/user/users/profile url script-response-body https://raw.githubusercontent.com/echo66677/myself/master/Jieluoxianmy.js
 [mitm]
 hostname = app.helixlife.cn
 */

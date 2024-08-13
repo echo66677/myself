@@ -6,7 +6,7 @@ bunid：com.SuperMandarin.Mandarin
 [rewrite_local]
 
 
-^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/itunes/pthxx.js
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/echo66677/myself/master/itunes/pthxx.js
 
 [mitm] 
 

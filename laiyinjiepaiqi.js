@@ -1,12 +1,12 @@
 /*
-来音节拍器  
+来音节拍器
 
 [rewrite_local]
 
 
-https://metronome-api\.quthing\.com/(login/mobile|vip/state) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/laiyinjiepaiqi.js
+https://metronome-api\.quthing\.com/(login/mobile|vip/state) url script-response-body https://raw.githubusercontent.com/echo66677/myself/master/laiyinjiepaiqi.js
 
-[mitm] 
+[mitm]
 
 hostname = metronome-api.quthing.com
 

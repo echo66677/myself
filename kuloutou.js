@@ -1,7 +1,7 @@
 /***
 [rewrite_local]
-^http[s]?:\/\/rootless.yumingzhu.top url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/kuloutou.js
-[mitm] 
+^http[s]?:\/\/rootless.yumingzhu.top url script-response-body https://raw.githubusercontent.com/echo66677/myself/master/kuloutou.js
+[mitm]
 hostname = rootless.yumingzhu.top
 
 **/

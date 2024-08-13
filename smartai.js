@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/smartai.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/echo66677/myself/master/smartai.js
 
 [mitm]
 hostname = buy.itunes.apple.com
@@ -18,7 +18,7 @@ hostname = buy.itunes.apple.com
 
 var objc = JSON.parse($response.body);
 
-    objc = 
+    objc =
 {
   "environment" : "Production",
   "receipt" : {

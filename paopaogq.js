@@ -5,9 +5,9 @@
 [rewrite_local]
 
 
-https:\/\/c\.abcpiano\.cn\/(pianoCourse\/units|pianoCourse\/lessons|pianoCourse\/playProgress|practice\/stavePlay|pianist|practice\/home) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/paopaogq.js
+https:\/\/c\.abcpiano\.cn\/(pianoCourse\/units|pianoCourse\/lessons|pianoCourse\/playProgress|practice\/stavePlay|pianist|practice\/home) url script-response-body https://raw.githubusercontent.com/echo66677/myself/master/paopaogq.js
 
-[mitm] 
+[mitm]
 
 hostname = c.abcpiano.cn
 */

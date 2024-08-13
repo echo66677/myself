@@ -1,9 +1,9 @@
 
-/* 
+/*
 数独 3.8.0
 
 [rewrite_local]
-^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/itunes/shudu.js
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/echo66677/myself/master/itunes/shudu.js
 
 [mitm]
 hostname = buy.itunes.apple.com

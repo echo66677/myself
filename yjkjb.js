@@ -5,9 +5,9 @@
 [rewrite_local]
 
 
-https://music.hjyywh.com/api/Exam. url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/yjkjb.js
+https://music.hjyywh.com/api/Exam. url script-response-body https://raw.githubusercontent.com/echo66677/myself/master/yjkjb.js
 
-[mitm] 
+[mitm]
 
 hostname = music.hjyywh.com
 */

@@ -7,9 +7,9 @@
 
 [rewrite_local]
 
-^http[s]?:\/\/cs.kuso.xyz\/configs url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/iscreen.js
+^http[s]?:\/\/cs.kuso.xyz\/configs url script-response-body https://raw.githubusercontent.com/echo66677/myself/master/iscreen.js
 
-[mitm] 
+[mitm]
 
 hostname = cs.kuso.xyz
 

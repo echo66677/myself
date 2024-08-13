@@ -1,12 +1,12 @@
 /*
 
-Slopes 
+Slopes
 2023.12.5更新
 
 [rewrite_local]
-https://my.getslopes.com/api/v2/account url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/Slopes.js
+https://my.getslopes.com/api/v2/account url script-response-body https://raw.githubusercontent.com/echo66677/myself/master/Slopes.js
 
-[mitm] 
+[mitm]
 hostname = my.getslopes.com
 1
 */

@@ -8,9 +8,9 @@
 **************************************
 
 [rewrite_local]
-^https:\/\/prod\.api\.lambus\.io\/v1\.10\/subscriptions url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/Lambus.js
+^https:\/\/prod\.api\.lambus\.io\/v1\.10\/subscriptions url script-response-body https://raw.githubusercontent.com/echo66677/myself/master/Lambus.js
 
-[mitm] 
+[mitm]
 hostname = prod.api.lambus.io
 
 ************************************/

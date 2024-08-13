@@ -1,13 +1,13 @@
 /*
 
-‎地震预警 
+‎地震预警
 2023.12.19
 
 [rewrite_local]
 
-^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/itunes/dzyj.js
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/echo66677/myself/master/itunes/dzyj.js
 
-[mitm] 
+[mitm]
 
 hostname = buy.itunes.apple.com
 

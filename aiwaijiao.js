@@ -3,9 +3,9 @@
 ai外教
 
 [rewrite_local]
-^https:\/\/(chatai\.qupeiyin\.com\/member\/index|www\.longstargpt\.com\/member\/index\/chatgpt\/chat\/sseV2) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/aiwaijiao.js
+^https:\/\/(chatai\.qupeiyin\.com\/member\/index|www\.longstargpt\.com\/member\/index\/chatgpt\/chat\/sseV2) url script-response-body https://raw.githubusercontent.com/echo66677/myself/master/aiwaijiao.js
 
-[mitm] 
+[mitm]
 
 hostname = chatai.qupeiyin.com
 

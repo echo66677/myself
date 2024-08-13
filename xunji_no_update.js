@@ -5,7 +5,7 @@
 
 
 [rewrite_local]
-^https:\/\/xunji\.gxzckj\.com\/after310\/ios url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/xunji_no_update.js
+^https:\/\/xunji\.gxzckj\.com\/after310\/ios url script-response-body https://raw.githubusercontent.com/echo66677/myself/master/xunji_no_update.js
 
 
 [mitm]
@@ -15,13 +15,13 @@ hostname = xunji.gxzckj.com
 /*
 
 
-var { body } = $response; 
-$done({ 
-    body: JSON.stringify({ 
-        "success": true, 
-        "res": { 
-            "version": 0, 
-            "list": [ 
-            ] 
-        } 
+var { body } = $response;
+$done({
+    body: JSON.stringify({
+        "success": true,
+        "res": {
+            "version": 0,
+            "list": [
+            ]
+        }
     })

@@ -1,25 +1,25 @@
 /*
 
-糖豆会员舞蹈视频 
+糖豆会员舞蹈视频
 仅测试Quantumultx
 
 [rewrite_local]
 
 #通用舞蹈视频
-^https:\/\/.*\.tangdou\.com\/(?:\w*\/)?\d+\/\d+_\w+\.mp4\?sign=[\w-]+&t=\w+$ url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/Tangdou.js
+^https:\/\/.*\.tangdou\.com\/(?:\w*\/)?\d+\/\d+_\w+\.mp4\?sign=[\w-]+&t=\w+$ url script-request-header https://raw.githubusercontent.com/echo66677/myself/master/Tangdou.js
 #舞蹈分类 16步舞蹈
-#^https:\/\/aqiniu\.tangdou\.com\/.*\.mp4 url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/Tangdou.js
+#^https:\/\/aqiniu\.tangdou\.com\/.*\.mp4 url script-request-header https://raw.githubusercontent.com/echo66677/myself/master/Tangdou.js
 #舞蹈分类 32步舞蹈
-#^https:\/\/acc\.tangdou\.com\/.*\.mp4 url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/Tangdou.js
+#^https:\/\/acc\.tangdou\.com\/.*\.mp4 url script-request-header https://raw.githubusercontent.com/echo66677/myself/master/Tangdou.js
 
-[mitm] 
+[mitm]
 hostname = *.tangdou.com
 */
 
 const $ = new Env('xingtikukecheng');
 
 try {
-  const url = $request.url; 
+  const url = $request.url;
   const headers = $request.headers;
   const userAgent = headers["User-Agent"];
   const urlPattern = /^https:\/\/.*\.tangdou\.com\/(?:\w*\/)?\d+\/\d+_\w+\.mp4\?sign=[\w-]+&t=\w+$/;

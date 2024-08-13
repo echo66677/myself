@@ -6,10 +6,10 @@
 [rewrite_local]
 
 
-https://yk.jiaoyin.vip/api/app/courseDetailNew url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/jyyk.js
+https://yk.jiaoyin.vip/api/app/courseDetailNew url script-response-body https://raw.githubusercontent.com/echo66677/myself/master/jyyk.js
 
-^https?://(?:liveapi\.jiaoyin\.vip|yk\.jiaoyin\.vip)/liveos/api/(?:vipMember/app/vipInfo/getMyVipInfo|community/user|partner/app/partner/partnerInfo/getPartnerInfo|app/courseDetailNew) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/jyyk.js
-[mitm] 
+^https?://(?:liveapi\.jiaoyin\.vip|yk\.jiaoyin\.vip)/liveos/api/(?:vipMember/app/vipInfo/getMyVipInfo|community/user|partner/app/partner/partnerInfo/getPartnerInfo|app/courseDetailNew) url script-response-body https://raw.githubusercontent.com/echo66677/myself/master/jyyk.js
+[mitm]
 
 hostname = yk.jiaoyin.vip
 */

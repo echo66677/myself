@@ -3,11 +3,11 @@
 
 [rewrite_local]
 #会员
-http:\/\/app.ppmbook.com\/(system\/getVipInfo\.do|user\/getMyCenterVo\.do) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/fhsy.js
+http:\/\/app.ppmbook.com\/(system\/getVipInfo\.do|user\/getMyCenterVo\.do) url script-response-body https://raw.githubusercontent.com/echo66677/myself/master/fhsy.js
 #开屏广告
 ^http:\/\/app\.ppmbook\.com\/home\/getCurrentAdvertisement\.do$ url reject
 
-[mitm] 
+[mitm]
 
 hostname = app.ppmbook.com
 */
@@ -25,7 +25,7 @@ if ($request.url === "http://app.ppmbook.com/system/getVipInfo.do") {
     obj.data.validDate = "2099-02-22 21:27:01";//
     obj.data.isKidVip = true;//
     obj.data.jkVip = true//
-} 
+}
 else if ($request.url === "http://app.ppmbook.com/user/getMyCenterVo.do") {
     obj.data.nickName = "baby";//
     obj.data.dzValidDate = "2099-02-22 21:27:01";//

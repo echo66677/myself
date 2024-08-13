@@ -4,9 +4,9 @@
 
 [rewrite_local]
 
-https://www.xiaoxiongyouhao.com/api/vip/index.php url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/xiaoxiongyouhao.js
+https://www.xiaoxiongyouhao.com/api/vip/index.php url script-response-body https://raw.githubusercontent.com/echo66677/myself/master/xiaoxiongyouhao.js
 
-[mitm] 
+[mitm]
 
 hostname = www.xiaoxiongyouhao.com
 
@@ -16,7 +16,7 @@ var body = $response.body;
 
 try {
     var responseBody = JSON.parse(body);
-  
+
     if (responseBody.vip_state) {
         responseBody.vip_state = 2;
     }

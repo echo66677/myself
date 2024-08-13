@@ -4,9 +4,9 @@
 [rewrite_local]
 
 
-https:\/\/api\.dayuclass\.com\/api\/v2\/(course|member\/detail) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/dydsk.js
+https:\/\/api\.dayuclass\.com\/api\/v2\/(course|member\/detail) url script-response-body https://raw.githubusercontent.com/echo66677/myself/master/dydsk.js
 
-[mitm] 
+[mitm]
 
 hostname = api.dayuclass.com
 */

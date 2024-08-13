@@ -3,9 +3,9 @@
 阅己
 
 [rewrite_local]
-https://great.starsdsea.com:12502/zx/home/user/info url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/yueji.js
+https://great.starsdsea.com:12502/zx/home/user/info url script-response-body https://raw.githubusercontent.com/echo66677/myself/master/yueji.js
 
-[mitm] 
+[mitm]
 
 hostname = great.starsdsea.com:12502
 #surge

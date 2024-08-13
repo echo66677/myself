@@ -1,12 +1,12 @@
 /*
-寻简 
-解锁会员 支持无水印下载 无水印保存 
+寻简
+解锁会员 支持无水印下载 无水印保存
 部分功能未测试
 [rewrite_local]
-https:\/\/api\.mindyushu\.com\/user\/(get-apple-member|me|storage-info) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/xunjian.js
+https:\/\/api\.mindyushu\.com\/user\/(get-apple-member|me|storage-info) url script-response-body https://raw.githubusercontent.com/echo66677/myself/master/xunjian.js
 
 
-[mitm] 
+[mitm]
 
 hostname = api.mindyushu.com
 */
@@ -27,7 +27,7 @@ if (/https:\/\/api\.mindyushu\.com\/user\/(get-apple-member|me|storage-info)/.te
     obj.memberExpire = 1;
   } else if (RegExp.$1 === 'storage-info') {
     obj.total = "99999999.00MB";
-    obj.totalBytes = 9999999999999; 
+    obj.totalBytes = 9999999999999;
     obj.showAlert = false;//空间不足弹窗？
   }
 }

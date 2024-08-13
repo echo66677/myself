@@ -4,9 +4,9 @@
 
 [rewrite_local]
 
-https?:\/\/api\.liangshiyaji\.cn\/(mobile\/Wexin\/customerCenterAppNew|api\/Strict\/getStrictDetails|api\/user\/CgetUserInfo) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/lsyj.js
+https?:\/\/api\.liangshiyaji\.cn\/(mobile\/Wexin\/customerCenterAppNew|api\/Strict\/getStrictDetails|api\/user\/CgetUserInfo) url script-response-body https://raw.githubusercontent.com/echo66677/myself/master/lsyj.js
 
-[mitm] 
+[mitm]
 
 hostname = api.liangshiyaji.cn
 */

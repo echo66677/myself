@@ -3,7 +3,7 @@
 脚本作者：PayNe
 
 [rewrite_local]
-^http[s]?:\/\/api\.x-storm\.com(:\d{2,5})?\/app/.+$ url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/ssHeader.js
+^http[s]?:\/\/api\.x-storm\.com(:\d{2,5})?\/app/.+$ url script-request-header https://raw.githubusercontent.com/echo66677/myself/master/ssHeader.js
 
 [mitm]
 hostname = *.x-storm.com

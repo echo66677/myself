@@ -3,9 +3,9 @@ memrise
 
 [rewrite_local]
 
-^https:\/\/api\.memrise\.com url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/memrise.js
+^https:\/\/api\.memrise\.com url script-response-body https://raw.githubusercontent.com/echo66677/myself/master/memrise.js
 
-[mitm] 
+[mitm]
 
 hostname = api.memrise.com
 */

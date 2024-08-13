@@ -4,13 +4,13 @@ Nico 多元人格交友
 
 [rewrite_local]
 #会员
-https://data.inicoapp.com/api/2.0/publicUser/detail? url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/Nico.js
+https://data.inicoapp.com/api/2.0/publicUser/detail? url script-response-body https://raw.githubusercontent.com/echo66677/myself/master/Nico.js
 #恋爱测试 解锁权限
-https://data.inicoapp.com/api/v4/testQuestions/getTestById url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/Nico.js
+https://data.inicoapp.com/api/v4/testQuestions/getTestById url script-response-body https://raw.githubusercontent.com/echo66677/myself/master/Nico.js
 #好物推荐
 https://data.inicoapp.com/api/v4/clientConfig/mallBannerConfig url reject-200
 #推广图片
-https://data.inicoapp.com/api/v4/personalActivity/getAppAc? url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/Nico.js
+https://data.inicoapp.com/api/v4/personalActivity/getAppAc? url script-response-body https://raw.githubusercontent.com/echo66677/myself/master/Nico.js
 [mitm]
 hostname = data.inicoapp.com
 
@@ -48,7 +48,7 @@ if (url.includes('/testQuestions/getTestById')) {
   });
 }
 
-// 测试题 
+// 测试题
 if (url.includes('/personalActivity/getAppAc')) {
   // 只保留测试题，去除情趣广告
   obj.data = obj.data.filter(item => item.type === 1);

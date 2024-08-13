@@ -9,9 +9,9 @@
 
 [rewrite_local]
 
-^https:\/\/app.iyzbz.com\/app\/user\/selfinfo url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/jiazipaipan.js
+^https:\/\/app.iyzbz.com\/app\/user\/selfinfo url script-response-body https://raw.githubusercontent.com/echo66677/myself/master/jiazipaipan.js
 
-[mitm] 
+[mitm]
 
 hostname = app.iyzbz.com
 

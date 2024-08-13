@@ -5,11 +5,11 @@
 
 
 [rewrite_local]
-^https:\/\/dict\.youdao\.com\/vip\/user\/status url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/wyydcd.js
-# 翻译   广告均由 安妮 分享 
+^https:\/\/dict\.youdao\.com\/vip\/user\/status url script-response-body https://raw.githubusercontent.com/echo66677/myself/master/wyydcd.js
+# 翻译   广告均由 安妮 分享
 ^https:\/\/dict\.youdao\.com\/course\/tab\/translateTab url reject-dict
 
-# 听读训练  
+# 听读训练
 ^https:\/\/dict\.youdao\.com\/homepage\/tile url reject-dict
 
 # 首次查词弹窗

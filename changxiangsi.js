@@ -2,12 +2,12 @@
 
 长相思 3.85
 time:2023.10.8
-赏析 学习 没办法解锁 
+赏析 学习 没办法解锁
 [rewrite_local]
 
 
-https://poetry.nanxiani.cn/api/User/loginUserInfo url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/changxiangsi.js
-^http[s]?:\/\/poetry.nanxiani.cn\/api\/study\/* url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/changxiangsi2.js
+https://poetry.nanxiani.cn/api/User/loginUserInfo url script-response-body https://raw.githubusercontent.com/echo66677/myself/master/changxiangsi.js
+^http[s]?:\/\/poetry.nanxiani.cn\/api\/study\/* url script-response-body https://raw.githubusercontent.com/echo66677/myself/master/changxiangsi2.js
 [mitm]
 hostname = poetry.nanxiani.cn
 

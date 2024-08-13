@@ -1,12 +1,12 @@
 /*
-音壳 
+音壳
 类型：乐理试唱 音乐学院app
 6.0.6
 2023.12.21
 
 [rewrite_local]
-https://www.notetech.org/mobile url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/yinke.js
-https://www.notetech.org/mobile url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/yinkedengji.js
+https://www.notetech.org/mobile url script-response-body https://raw.githubusercontent.com/echo66677/myself/master/yinke.js
+https://www.notetech.org/mobile url script-response-body https://raw.githubusercontent.com/echo66677/myself/master/yinkedengji.js
 
 [mitm]
 hostname = www.notetech.org

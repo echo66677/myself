@@ -1,9 +1,9 @@
 /*
-BodyOk 4.1.9 
+BodyOk 4.1.9
 间歇性断食追踪
 
 [rewrite_local]
-^https:\/\/api\.apphud\.com\/v1\/(subscriptions|customers)$ url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/BodyOk.js
+^https:\/\/api\.apphud\.com\/v1\/(subscriptions|customers)$ url script-response-body https://raw.githubusercontent.com/echo66677/myself/master/BodyOk.js
 
 [mitm]
 hostname = api.apphud.com
